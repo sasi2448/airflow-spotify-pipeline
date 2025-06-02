@@ -24,7 +24,7 @@ jobs:
             --exclude "README.md" --exclude ".gitignore" \
             --exclude "data" --exclude "config" \
             --exclude "plugins" --exclude "scripts" \
-            --exlude "docker-compose.yml" \
+            --exclude "docker-compose.yml" \
             --exclude "notebooks" --exclude ".env" \ 
             --exclude "logs" \
             --delete
