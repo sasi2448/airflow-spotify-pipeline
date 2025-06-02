@@ -1,0 +1,73 @@
+[2025-06-02T09:48:12.208+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data_validation_and_kpi.validate_datasets scheduled__2025-06-01T00:00:00+00:00 [queued]>
+[2025-06-02T09:48:12.218+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data_validation_and_kpi.validate_datasets scheduled__2025-06-01T00:00:00+00:00 [queued]>
+[2025-06-02T09:48:12.218+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-06-02T09:48:12.236+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): validate_datasets> on 2025-06-01 00:00:00+00:00
+[2025-06-02T09:48:12.247+0000] {standard_task_runner.py:60} INFO - Started process 566 to run task
+[2025-06-02T09:48:12.251+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'data_validation_and_kpi', 'validate_datasets', 'scheduled__2025-06-01T00:00:00+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/kpi-data-pipeline.py', '--cfg-path', '/tmp/tmpy6h1wsp3']
+[2025-06-02T09:48:12.255+0000] {standard_task_runner.py:88} INFO - Job 12: Subtask validate_datasets
+[2025-06-02T09:48:12.326+0000] {task_command.py:423} INFO - Running <TaskInstance: data_validation_and_kpi.validate_datasets scheduled__2025-06-01T00:00:00+00:00 [running]> on host 08dce0e3fdc0
+[2025-06-02T09:48:12.428+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='data_validation_and_kpi' AIRFLOW_CTX_TASK_ID='validate_datasets' AIRFLOW_CTX_EXECUTION_DATE='2025-06-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-06-01T00:00:00+00:00'
+[2025-06-02T09:48:12.910+0000] {kpi-data-pipeline.py:57} ERROR - Failed to read spotify_data/songs.csv from S3: Unable to locate credentials
+[2025-06-02T09:48:12.911+0000] {kpi-data-pipeline.py:75} ERROR - Failed to read or validate songs from S3: Failed to read spotify_data/songs.csv from S3: Unable to locate credentials
+[2025-06-02T09:48:12.912+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/opt/airflow/dags/kpi-data-pipeline.py", line 53, in read_s3_csv
+    obj = s3.get_object(Bucket=bucket, Key=file_name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/botocore/client.py", line 553, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/botocore/client.py", line 989, in _make_api_call
+    http, parsed_response = self._make_request(
+                            ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/botocore/client.py", line 1015, in _make_request
+    return self._endpoint.make_request(operation_model, request_dict)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/botocore/endpoint.py", line 119, in make_request
+    return self._send_request(request_dict, operation_model)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/botocore/endpoint.py", line 198, in _send_request
+    request = self.create_request(request_dict, operation_model)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/botocore/endpoint.py", line 134, in create_request
+    self._event_emitter.emit(
+  File "/home/airflow/.local/lib/python3.11/site-packages/botocore/hooks.py", line 412, in emit
+    return self._emitter.emit(aliased_event_name, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/botocore/hooks.py", line 256, in emit
+    return self._emit(event_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/botocore/hooks.py", line 239, in _emit
+    response = handler(**kwargs)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/botocore/signers.py", line 105, in handler
+    return self.sign(operation_name, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/botocore/signers.py", line 195, in sign
+    auth.add_auth(request)
+  File "/home/airflow/.local/lib/python3.11/site-packages/botocore/auth.py", line 418, in add_auth
+    raise NoCredentialsError()
+botocore.exceptions.NoCredentialsError: Unable to locate credentials
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/kpi-data-pipeline.py", line 65, in validate_datasets
+    songs_data = read_s3_csv(SONGS_FILE_PATH)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/kpi-data-pipeline.py", line 58, in read_s3_csv
+    raise Exception(f"Failed to read {file_name} from S3: {str(e)}")
+Exception: Failed to read spotify_data/songs.csv from S3: Unable to locate credentials
+[2025-06-02T09:48:12.932+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=data_validation_and_kpi, task_id=validate_datasets, execution_date=20250601T000000, start_date=20250602T094812, end_date=20250602T094812
+[2025-06-02T09:48:12.955+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 12 for task validate_datasets (Failed to read spotify_data/songs.csv from S3: Unable to locate credentials; 566)
+[2025-06-02T09:48:12.986+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-06-02T09:48:13.018+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
