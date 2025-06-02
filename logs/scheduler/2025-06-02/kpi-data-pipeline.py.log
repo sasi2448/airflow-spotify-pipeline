@@ -1518,3 +1518,187 @@
 [2025-06-02T11:53:11.456+0000] {logging_mixin.py:188} INFO - [2025-06-02T11:53:11.456+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2025-06-02T11:53:11.475+0000] {logging_mixin.py:188} INFO - [2025-06-02T11:53:11.474+0000] {dag.py:3823} INFO - Setting next_dagrun for data_validation_and_kpi to 2025-06-02 00:00:00+00:00, run_after=2025-06-03 00:00:00+00:00
 [2025-06-02T11:53:11.493+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kpi-data-pipeline.py took 0.501 seconds
+[2025-06-02T12:04:28.517+0000] {processor.py:161} INFO - Started process (PID=1689) to work on /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:04:28.518+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kpi-data-pipeline.py for tasks to queue
+[2025-06-02T12:04:28.519+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:04:28.518+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:04:29.446+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-06-02T12:04:29.459+0000] {processor.py:840} INFO - DAG(s) 'data_validation_and_kpi' retrieved from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:04:29.497+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:04:29.496+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-02T12:04:29.529+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:04:29.529+0000] {dag.py:3823} INFO - Setting next_dagrun for data_validation_and_kpi to 2025-06-02 00:00:00+00:00, run_after=2025-06-03 00:00:00+00:00
+[2025-06-02T12:04:29.556+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kpi-data-pipeline.py took 1.042 seconds
+[2025-06-02T12:04:59.675+0000] {processor.py:161} INFO - Started process (PID=1697) to work on /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:04:59.676+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kpi-data-pipeline.py for tasks to queue
+[2025-06-02T12:04:59.677+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:04:59.676+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:05:00.154+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-06-02T12:05:00.159+0000] {processor.py:840} INFO - DAG(s) 'data_validation_and_kpi' retrieved from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:05:00.182+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:05:00.181+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-02T12:05:00.203+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:05:00.203+0000] {dag.py:3823} INFO - Setting next_dagrun for data_validation_and_kpi to 2025-06-02 00:00:00+00:00, run_after=2025-06-03 00:00:00+00:00
+[2025-06-02T12:05:00.223+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kpi-data-pipeline.py took 0.551 seconds
+[2025-06-02T12:05:30.385+0000] {processor.py:161} INFO - Started process (PID=1705) to work on /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:05:30.385+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kpi-data-pipeline.py for tasks to queue
+[2025-06-02T12:05:30.386+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:05:30.386+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:05:31.038+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-06-02T12:05:31.049+0000] {processor.py:840} INFO - DAG(s) 'data_validation_and_kpi' retrieved from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:05:31.077+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:05:31.077+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-02T12:05:31.097+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:05:31.097+0000] {dag.py:3823} INFO - Setting next_dagrun for data_validation_and_kpi to 2025-06-02 00:00:00+00:00, run_after=2025-06-03 00:00:00+00:00
+[2025-06-02T12:05:31.115+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kpi-data-pipeline.py took 0.734 seconds
+[2025-06-02T12:06:01.272+0000] {processor.py:161} INFO - Started process (PID=1713) to work on /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:06:01.273+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kpi-data-pipeline.py for tasks to queue
+[2025-06-02T12:06:01.274+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:06:01.274+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:06:01.745+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-06-02T12:06:01.750+0000] {processor.py:840} INFO - DAG(s) 'data_validation_and_kpi' retrieved from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:06:01.773+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:06:01.773+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-02T12:06:01.794+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:06:01.794+0000] {dag.py:3823} INFO - Setting next_dagrun for data_validation_and_kpi to 2025-06-02 00:00:00+00:00, run_after=2025-06-03 00:00:00+00:00
+[2025-06-02T12:06:01.814+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kpi-data-pipeline.py took 0.545 seconds
+[2025-06-02T12:06:32.014+0000] {processor.py:161} INFO - Started process (PID=1721) to work on /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:06:32.015+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kpi-data-pipeline.py for tasks to queue
+[2025-06-02T12:06:32.016+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:06:32.016+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:06:32.464+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-06-02T12:06:32.469+0000] {processor.py:840} INFO - DAG(s) 'data_validation_and_kpi' retrieved from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:06:32.491+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:06:32.491+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-02T12:06:32.510+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:06:32.510+0000] {dag.py:3823} INFO - Setting next_dagrun for data_validation_and_kpi to 2025-06-02 00:00:00+00:00, run_after=2025-06-03 00:00:00+00:00
+[2025-06-02T12:06:32.530+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kpi-data-pipeline.py took 0.519 seconds
+[2025-06-02T12:07:02.674+0000] {processor.py:161} INFO - Started process (PID=1729) to work on /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:07:02.675+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kpi-data-pipeline.py for tasks to queue
+[2025-06-02T12:07:02.675+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:07:02.675+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:07:03.128+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-06-02T12:07:03.133+0000] {processor.py:840} INFO - DAG(s) 'data_validation_and_kpi' retrieved from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:07:03.155+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:07:03.154+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-02T12:07:03.175+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:07:03.175+0000] {dag.py:3823} INFO - Setting next_dagrun for data_validation_and_kpi to 2025-06-02 00:00:00+00:00, run_after=2025-06-03 00:00:00+00:00
+[2025-06-02T12:07:03.195+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kpi-data-pipeline.py took 0.524 seconds
+[2025-06-02T12:07:33.373+0000] {processor.py:161} INFO - Started process (PID=1737) to work on /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:07:33.374+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kpi-data-pipeline.py for tasks to queue
+[2025-06-02T12:07:33.375+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:07:33.375+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:07:33.857+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-06-02T12:07:33.862+0000] {processor.py:840} INFO - DAG(s) 'data_validation_and_kpi' retrieved from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:07:33.883+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:07:33.883+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-02T12:07:33.903+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:07:33.903+0000] {dag.py:3823} INFO - Setting next_dagrun for data_validation_and_kpi to 2025-06-02 00:00:00+00:00, run_after=2025-06-03 00:00:00+00:00
+[2025-06-02T12:07:33.922+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kpi-data-pipeline.py took 0.553 seconds
+[2025-06-02T12:08:04.075+0000] {processor.py:161} INFO - Started process (PID=1745) to work on /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:08:04.076+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kpi-data-pipeline.py for tasks to queue
+[2025-06-02T12:08:04.077+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:08:04.077+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:08:04.567+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-06-02T12:08:04.572+0000] {processor.py:840} INFO - DAG(s) 'data_validation_and_kpi' retrieved from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:08:04.595+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:08:04.595+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-02T12:08:04.616+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:08:04.616+0000] {dag.py:3823} INFO - Setting next_dagrun for data_validation_and_kpi to 2025-06-02 00:00:00+00:00, run_after=2025-06-03 00:00:00+00:00
+[2025-06-02T12:08:04.635+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kpi-data-pipeline.py took 0.564 seconds
+[2025-06-02T12:08:34.805+0000] {processor.py:161} INFO - Started process (PID=1753) to work on /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:08:34.806+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kpi-data-pipeline.py for tasks to queue
+[2025-06-02T12:08:34.807+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:08:34.807+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:08:35.252+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-06-02T12:08:35.257+0000] {processor.py:840} INFO - DAG(s) 'data_validation_and_kpi' retrieved from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:08:35.277+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:08:35.277+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-02T12:08:35.297+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:08:35.296+0000] {dag.py:3823} INFO - Setting next_dagrun for data_validation_and_kpi to 2025-06-02 00:00:00+00:00, run_after=2025-06-03 00:00:00+00:00
+[2025-06-02T12:08:35.317+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kpi-data-pipeline.py took 0.514 seconds
+[2025-06-02T12:09:05.457+0000] {processor.py:161} INFO - Started process (PID=1761) to work on /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:09:05.457+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kpi-data-pipeline.py for tasks to queue
+[2025-06-02T12:09:05.458+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:09:05.458+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:09:05.882+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-06-02T12:09:05.887+0000] {processor.py:840} INFO - DAG(s) 'data_validation_and_kpi' retrieved from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:09:05.907+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:09:05.907+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-02T12:09:05.927+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:09:05.927+0000] {dag.py:3823} INFO - Setting next_dagrun for data_validation_and_kpi to 2025-06-02 00:00:00+00:00, run_after=2025-06-03 00:00:00+00:00
+[2025-06-02T12:09:05.945+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kpi-data-pipeline.py took 0.491 seconds
+[2025-06-02T12:09:36.111+0000] {processor.py:161} INFO - Started process (PID=1769) to work on /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:09:36.112+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kpi-data-pipeline.py for tasks to queue
+[2025-06-02T12:09:36.113+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:09:36.113+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:09:36.600+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-06-02T12:09:36.606+0000] {processor.py:840} INFO - DAG(s) 'data_validation_and_kpi' retrieved from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:09:36.628+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:09:36.628+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-02T12:09:36.649+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:09:36.649+0000] {dag.py:3823} INFO - Setting next_dagrun for data_validation_and_kpi to 2025-06-02 00:00:00+00:00, run_after=2025-06-03 00:00:00+00:00
+[2025-06-02T12:09:36.670+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kpi-data-pipeline.py took 0.562 seconds
+[2025-06-02T12:10:06.724+0000] {processor.py:161} INFO - Started process (PID=1777) to work on /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:10:06.725+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kpi-data-pipeline.py for tasks to queue
+[2025-06-02T12:10:06.726+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:10:06.725+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:10:07.188+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-06-02T12:10:07.193+0000] {processor.py:840} INFO - DAG(s) 'data_validation_and_kpi' retrieved from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:10:07.217+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:10:07.216+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-02T12:10:07.238+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:10:07.238+0000] {dag.py:3823} INFO - Setting next_dagrun for data_validation_and_kpi to 2025-06-02 00:00:00+00:00, run_after=2025-06-03 00:00:00+00:00
+[2025-06-02T12:10:07.258+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kpi-data-pipeline.py took 0.538 seconds
+[2025-06-02T12:10:37.421+0000] {processor.py:161} INFO - Started process (PID=1785) to work on /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:10:37.422+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kpi-data-pipeline.py for tasks to queue
+[2025-06-02T12:10:37.423+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:10:37.423+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:10:37.881+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-06-02T12:10:37.886+0000] {processor.py:840} INFO - DAG(s) 'data_validation_and_kpi' retrieved from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:10:37.907+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:10:37.906+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-02T12:10:37.925+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:10:37.924+0000] {dag.py:3823} INFO - Setting next_dagrun for data_validation_and_kpi to 2025-06-02 00:00:00+00:00, run_after=2025-06-03 00:00:00+00:00
+[2025-06-02T12:10:37.943+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kpi-data-pipeline.py took 0.524 seconds
+[2025-06-02T12:11:08.069+0000] {processor.py:161} INFO - Started process (PID=1793) to work on /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:11:08.069+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kpi-data-pipeline.py for tasks to queue
+[2025-06-02T12:11:08.070+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:11:08.070+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:11:08.503+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-06-02T12:11:08.508+0000] {processor.py:840} INFO - DAG(s) 'data_validation_and_kpi' retrieved from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:11:08.529+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:11:08.528+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-02T12:11:08.548+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:11:08.548+0000] {dag.py:3823} INFO - Setting next_dagrun for data_validation_and_kpi to 2025-06-02 00:00:00+00:00, run_after=2025-06-03 00:00:00+00:00
+[2025-06-02T12:11:08.568+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kpi-data-pipeline.py took 0.502 seconds
+[2025-06-02T12:11:38.736+0000] {processor.py:161} INFO - Started process (PID=1801) to work on /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:11:38.737+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kpi-data-pipeline.py for tasks to queue
+[2025-06-02T12:11:38.738+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:11:38.738+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:11:39.222+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-06-02T12:11:39.228+0000] {processor.py:840} INFO - DAG(s) 'data_validation_and_kpi' retrieved from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:11:39.250+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:11:39.250+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-02T12:11:39.272+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:11:39.272+0000] {dag.py:3823} INFO - Setting next_dagrun for data_validation_and_kpi to 2025-06-02 00:00:00+00:00, run_after=2025-06-03 00:00:00+00:00
+[2025-06-02T12:11:39.291+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kpi-data-pipeline.py took 0.557 seconds
+[2025-06-02T12:12:09.381+0000] {processor.py:161} INFO - Started process (PID=1809) to work on /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:12:09.382+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kpi-data-pipeline.py for tasks to queue
+[2025-06-02T12:12:09.383+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:12:09.382+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:12:09.897+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-06-02T12:12:09.903+0000] {processor.py:840} INFO - DAG(s) 'data_validation_and_kpi' retrieved from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:12:09.928+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:12:09.928+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-02T12:12:09.953+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:12:09.953+0000] {dag.py:3823} INFO - Setting next_dagrun for data_validation_and_kpi to 2025-06-02 00:00:00+00:00, run_after=2025-06-03 00:00:00+00:00
+[2025-06-02T12:12:09.975+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kpi-data-pipeline.py took 0.598 seconds
+[2025-06-02T12:12:40.154+0000] {processor.py:161} INFO - Started process (PID=1818) to work on /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:12:40.155+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kpi-data-pipeline.py for tasks to queue
+[2025-06-02T12:12:40.156+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:12:40.155+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:12:40.628+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-06-02T12:12:40.633+0000] {processor.py:840} INFO - DAG(s) 'data_validation_and_kpi' retrieved from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:12:40.655+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:12:40.655+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-02T12:12:40.680+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:12:40.680+0000] {dag.py:3823} INFO - Setting next_dagrun for data_validation_and_kpi to 2025-06-02 00:00:00+00:00, run_after=2025-06-03 00:00:00+00:00
+[2025-06-02T12:12:40.701+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kpi-data-pipeline.py took 0.551 seconds
+[2025-06-02T12:13:10.852+0000] {processor.py:161} INFO - Started process (PID=1826) to work on /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:13:10.854+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kpi-data-pipeline.py for tasks to queue
+[2025-06-02T12:13:10.855+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:13:10.855+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:13:11.369+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-06-02T12:13:11.374+0000] {processor.py:840} INFO - DAG(s) 'data_validation_and_kpi' retrieved from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:13:11.397+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:13:11.397+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-02T12:13:11.419+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:13:11.419+0000] {dag.py:3823} INFO - Setting next_dagrun for data_validation_and_kpi to 2025-06-02 00:00:00+00:00, run_after=2025-06-03 00:00:00+00:00
+[2025-06-02T12:13:11.441+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kpi-data-pipeline.py took 0.593 seconds
+[2025-06-02T12:13:41.617+0000] {processor.py:161} INFO - Started process (PID=1834) to work on /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:13:41.618+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kpi-data-pipeline.py for tasks to queue
+[2025-06-02T12:13:41.619+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:13:41.619+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:13:42.095+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-06-02T12:13:42.100+0000] {processor.py:840} INFO - DAG(s) 'data_validation_and_kpi' retrieved from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:13:42.121+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:13:42.121+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-02T12:13:42.141+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:13:42.141+0000] {dag.py:3823} INFO - Setting next_dagrun for data_validation_and_kpi to 2025-06-02 00:00:00+00:00, run_after=2025-06-03 00:00:00+00:00
+[2025-06-02T12:13:42.161+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kpi-data-pipeline.py took 0.547 seconds
+[2025-06-02T12:14:12.307+0000] {processor.py:161} INFO - Started process (PID=1842) to work on /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:14:12.308+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kpi-data-pipeline.py for tasks to queue
+[2025-06-02T12:14:12.308+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:14:12.308+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:14:13.017+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-06-02T12:14:13.027+0000] {processor.py:840} INFO - DAG(s) 'data_validation_and_kpi' retrieved from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:14:13.056+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:14:13.056+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-02T12:14:13.077+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:14:13.076+0000] {dag.py:3823} INFO - Setting next_dagrun for data_validation_and_kpi to 2025-06-02 00:00:00+00:00, run_after=2025-06-03 00:00:00+00:00
+[2025-06-02T12:14:13.096+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kpi-data-pipeline.py took 0.792 seconds
+[2025-06-02T12:14:43.252+0000] {processor.py:161} INFO - Started process (PID=1850) to work on /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:14:43.253+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kpi-data-pipeline.py for tasks to queue
+[2025-06-02T12:14:43.253+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:14:43.253+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:14:43.696+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-06-02T12:14:43.700+0000] {processor.py:840} INFO - DAG(s) 'data_validation_and_kpi' retrieved from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:14:43.720+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:14:43.720+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-02T12:14:43.739+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:14:43.739+0000] {dag.py:3823} INFO - Setting next_dagrun for data_validation_and_kpi to 2025-06-02 00:00:00+00:00, run_after=2025-06-03 00:00:00+00:00
+[2025-06-02T12:14:43.759+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kpi-data-pipeline.py took 0.510 seconds
+[2025-06-02T12:15:13.926+0000] {processor.py:161} INFO - Started process (PID=1858) to work on /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:15:13.927+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kpi-data-pipeline.py for tasks to queue
+[2025-06-02T12:15:13.928+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:15:13.928+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:15:14.367+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-06-02T12:15:14.372+0000] {processor.py:840} INFO - DAG(s) 'data_validation_and_kpi' retrieved from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:15:14.393+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:15:14.392+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-02T12:15:14.413+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:15:14.413+0000] {dag.py:3823} INFO - Setting next_dagrun for data_validation_and_kpi to 2025-06-02 00:00:00+00:00, run_after=2025-06-03 00:00:00+00:00
+[2025-06-02T12:15:14.433+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kpi-data-pipeline.py took 0.510 seconds
+[2025-06-02T12:15:44.534+0000] {processor.py:161} INFO - Started process (PID=1866) to work on /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:15:44.535+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kpi-data-pipeline.py for tasks to queue
+[2025-06-02T12:15:44.536+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:15:44.536+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:15:44.974+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-06-02T12:15:44.980+0000] {processor.py:840} INFO - DAG(s) 'data_validation_and_kpi' retrieved from /opt/airflow/dags/kpi-data-pipeline.py
+[2025-06-02T12:15:45.001+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:15:45.001+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-02T12:15:45.022+0000] {logging_mixin.py:188} INFO - [2025-06-02T12:15:45.021+0000] {dag.py:3823} INFO - Setting next_dagrun for data_validation_and_kpi to 2025-06-02 00:00:00+00:00, run_after=2025-06-03 00:00:00+00:00
+[2025-06-02T12:15:45.042+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kpi-data-pipeline.py took 0.510 seconds
