@@ -22,6 +22,11 @@ jobs:
           aws s3 sync . s3://${{ env.S3_BUCKET }}/${{ env.S3_PATH }} \
             --exclude ".git/*" --exclude ".github/*" \
             --exclude "README.md" --exclude ".gitignore" \
+            --exclude "data" --exclude "config" \
+            --exclude "plugins" --exclude "scripts" \
+            --exlude "docker-compose.yml" \
+            --exclude "notebooks" --exclude ".env" \ 
+            --exclude "logs" \
             --delete
         env:
           S3_BUCKET: spotify-prod-self
