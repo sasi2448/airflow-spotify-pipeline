@@ -25,9 +25,10 @@ jobs:
             --exclude "data" --exclude "config" \
             --exclude "plugins" --exclude "scripts" \
             --exclude "docker-compose.yml" \
-            --exclude "notebooks" --exclude ".env" \ 
+            --exclude "notebooks" --exclude ".env" \
             --exclude "logs" \
             --delete
+
         env:
           S3_BUCKET: spotify-prod-self
           S3_PATH: mwaa-prod
